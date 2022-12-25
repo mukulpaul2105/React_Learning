@@ -7,7 +7,6 @@ export default function Form()
    const [tnc, setTnc] = useState(false);
    const [interest, setInterest] = useState("");
 
-   // To take input from the user we use this method
    function getFormData(e)
    {
       console.warn(name, tnc, interest)
